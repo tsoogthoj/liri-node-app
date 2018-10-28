@@ -1,0 +1,21 @@
+User Command: node liri.js movie-this apple
+
+LIRI Response:
+
+Movie Information:
+Movie Title: Apple
+Year Released: 04 Mar 1995
+IMBD Rating: 5.2
+Rotten Tomatoes Rating: N/A
+Country Produced: USA
+Language: English
+Plot: A young elven girl named Apple grows up to be a dark sorceress named Orb.
+Actors: Gayle T. Keller, Christa Kirn, Leanna Satani, Marlene Sperka
+
+node liri.js spotify-this-song "I Want it That Way"LIRI Response:
+
+Song Information:
+Song Name: I Want It That Way
+Artist: Backstreet Boys
+Album: The Hits--Chapter One
+Preview Here: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=c63f28191a4944b1985043b4a253aac4
