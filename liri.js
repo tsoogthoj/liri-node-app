@@ -13,11 +13,27 @@ let term = inputs.slice(3).join('+')
 
 function bandsInTown() {
     if (term === '') {
-        search = 'The+Sign+by+Ace+of+Base'
+        console.log("Ender a band name/artist name")
     } else {
         search = term
+        let queryStr = "https://rest.bandsintown.com/artists/" + search + "/events?app_id=codingbootcamp";
+        
+        request(queryStr, function (error, response, body) {
+            let data = JSON.parse(body)[0];
+            let info = 
+            "Name of the venue: " + data.venue.name + '\n'+ 
+            "Venue location: " + data.venue.city + ", " + data.venue.region + '\n'+ 
+            "Date of the Event: " + moment(data.datetime).format('MMMM Do YYYY, h:mm:ss a')
+
+        fs.appendFile('./log.txt', 'node liri.js concert-this ' + term, (err) => {
+            if (err) throw err;
+        });
+        fs.appendFile('./log.txt', 'LIRI Response:\n\n' + info, (err) => {
+            if (err) throw err;
+        });
+        console.log(info);
+        })
     }
-    
 }
 
 function spotifySearch() {

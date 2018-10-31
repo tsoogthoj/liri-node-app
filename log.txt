@@ -19,3 +19,8 @@ Song Name: I Want It That Way
 Artist: Backstreet Boys
 Album: The Hits--Chapter One
 Preview Here: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=c63f28191a4944b1985043b4a253aac4
+LIRI Response:
+
+Name of the venue: SCALATEATERN KARLSTAD
+Venue location: Karlstad, 
+Date of the Event: April 12th 2019, 7:30:00 pmnode liri.js concert-this pete
