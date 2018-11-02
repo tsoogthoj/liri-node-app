@@ -7,7 +7,7 @@ This is my first project using node. This app will get information about a song 
 
 
 ### Install
-Just run ```npm install``` in the terminal. 
+Clone or download the repository then run ```npm install``` in the terminal. 
 This will install the following packages and their dependencies
 - request https://www.npmjs.com/package/request
 - moment https://www.npmjs.com/package/moment
