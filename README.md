@@ -55,7 +55,7 @@ Plot: When the aging head of a famous crime family decides to transfer his posit
 Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
 ```
 ##### Command 
-```node liri.js do-what-it-says```
+```node liri.js do-what-it-says```  
 This will grab the command from random.txt
 ##### Example
 ```
