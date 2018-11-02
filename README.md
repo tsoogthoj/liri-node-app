@@ -56,6 +56,7 @@ Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
 ```
 ##### Command 
 ```node liri.js do-what-it-says```
+This will grab the command from random.txt
 ##### Example
 ```
 node liri.js do-what-it-says
