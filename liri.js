@@ -24,7 +24,6 @@ function bandsInTown() {
             "Name of the venue: " + data.venue.name + '\n'+ 
             "Venue location: " + data.venue.city + ", " + data.venue.region + '\n'+ 
             "Date of the Event: " + moment(data.datetime).format('MMMM Do YYYY, h:mm:ss a')
-
         fs.appendFile('./log.txt', 'node liri.js concert-this ' + term, (err) => {
             if (err) throw err;
         });
@@ -73,7 +72,6 @@ function movie() {
 	request(queryStr, function (error, response, body) {
         let data = JSON.parse(body);
         let output =
-        'Movie Information:\n' + 
         'Movie Title: ' + data.Title + '\n' + 
         'Year Released: ' + data.Released + '\n' +
         'IMBD Rating: ' + data.imdbRating + '\n' +
